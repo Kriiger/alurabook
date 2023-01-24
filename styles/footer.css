@@ -1,0 +1,62 @@
+.divisoria {
+    margin: 0;
+}
+
+.rodape {
+    background-color: var(--branco);
+    padding: 1.5em;
+}
+
+.rodape__titulo {
+    font-size: 16px;
+}
+
+.rodape__conteudo {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .rodape {
+        display: grid;
+        grid-template-columns: auto 1fr;
+        column-gap: 100px
+    }
+
+    .rodape__titulo {
+        font-size: 24px;
+    }
+
+    .titulo__lista {
+        margin-bottom: 26px;
+        color: var(--cinza);
+        font-size: 14px;
+    }
+
+    .rodape__conteudo {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .rodape__items {
+        display: flex;
+        align-items: center;
+        margin: 18px 0;
+        font-size: 14px;
+        color: var(--cinza);
+    }
+
+    .item__imagem {
+        margin-right: 8px;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .rodape {
+        padding: 2em 10em;
+    }
+
+    .rodape__lista {
+        border-left: 1px solid var(--cinza);
+        padding-left: 1.2em;
+    }
+}

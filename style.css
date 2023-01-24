@@ -1,0 +1,29 @@
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/carrocel.css");
+@import url("styles/topicos.css");
+@import url("styles/contato.css");
+@import url("styles/footer.css");
+
+:root {
+    --cor-de-fundo: #ebecee;
+    --branco: #ffffff;
+    --laranja: #eb9b00;
+    --gradient-azul: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --azul: #002F52;
+    --font-principal: 'Poppins', sans-serif;
+    --font-secundaria: 'Josefin Sans', sans-serif;
+    --cinza: #474646;
+}
+
+html {
+    max-width: 1728px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--font-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
